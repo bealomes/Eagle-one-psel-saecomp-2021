@@ -1,0 +1,115 @@
+#barra {
+	background-color: #ED6300;
+	position: fixed;
+  margin-top: -1em;
+  width: 100%;
+  
+  
+}
+
+#carouselExampleCaptions {
+	 position: under;
+   top: 45px;
+   left: 45px;
+}
+
+ .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+ @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+     }
+}
+body{
+	background-color: #EBEBEB;
+}
+
+#logo {
+	width: 60px;
+	height: 60px;
+	border: 2px solid black;
+  border-radius: 50px;
+}
+
+ #titulo
+ {
+	color: #FFF8DC; 
+	text-shadow: black 0.1em 0.1em 0.2em;
+
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #FFF8DC;
+
+}
+#criadorAno {
+	position: center;
+	background-color: #2A2B2A
+}
+
+#link-nav:hover {
+	background:#FF7C1F; 
+	color:#f00;
+	}
+
+#link-nav {
+		color: black;
+		-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	 text-decoration: none;
+}
+
+#rodape {
+	background-color: #313638;
+	width: 100%
+}
+
+#mainPI{
+	background: url(img/droneEO.png);
+	 width: 100%; 
+	 margin-left: 10px;
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; 
+}
+
+#mainASK {
+	background-color: #EBEBEB;
+	
+}
+#carousel-hestia-generic {
+	align-items: center;
+	margin-left: 20%;
+}
+
+p, h2, h3, h6 {
+	text-align: justify;
+}
+
+p {
+	font-family: geneva;
+}
+
+
+/* Estilo de fontes */
+.font-custom {
+    text-align: left;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em;
+    color: #fffdd9;
+}
+
+/* Margem para o container */
+.container {
+    margin-top: 1em;
+}
+
+/* Cor de fundo personalizada */
+.bg-custom {
+    background-color: #FFF8DC;
+}
